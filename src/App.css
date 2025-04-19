@@ -1,0 +1,333 @@
+
+#root {
+  width: 488px;
+  height: 1029px;
+  margin: auto;
+  font-family: 'inter', sans-serif;
+}
+
+
+/*Couleurs*/
+.primary{ color: #1D39EC;}
+.secondary{ color: #FFFFFF;}
+.text{ color: #000000;}
+.text1{ color: #D9D9D9;}
+.button{ color: #1DCCFF;}
+
+/*Typographie*/
+.h1{
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.h2{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.text1{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text3{
+  font-weight: 500;
+  font-size: 17px;
+}
+.text4{
+  font-weight: 600;
+  font-size: 15px;
+  color: gray;
+}
+/* Regular font-family: 'Inter', sans-serif; font-weight: 400; font-size: 20px;*/
+/* Medium font-weight: 500;*/
+/* Semi-Bold font-weight: 600;*/
+/* Bold font-weight: 700;*/
+
+
+
+
+
+/* Page Homme */
+.logoParametre{
+  padding-left: 23px;
+  padding-top: 28px;
+}
+.dp{
+  color: #FFFFFF;
+  display: flex;
+  margin-left: 146px;
+  margin-top: 25px;
+}
+.chiffre{
+  font-size: 54px;
+  font-weight: 800;
+}
+.monnaie{
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.logoVue{
+  padding-top: 25px;
+  padding-left: 10px;
+
+}
+.groupItem{
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  height: 135px;
+  padding-top: 95px;
+  border-radius: 20px 20px 0px 0px;
+
+}
+.scanner{
+  position: absolute;
+  top: 170px;
+  right: 65px;
+
+}
+.flotteur{
+  position: relative;
+}
+.transactionName{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.dateHistorique{
+  font-size: 15px;
+  font-weight: 400;
+  color: #656470;
+  padding-top: 10px;
+}
+.groupetransaction{
+  background-color: #FFFFFF;
+  padding-top: 29px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #1D39EC;
+}
+.rallure{
+   background-color: #a9a9b0;
+   height: 10px;
+}
+.home{
+  background-color: #1D39EC;
+}
+/*Paramètre*/
+.parametre{
+  background-color: #F3F4F6;
+  height: 1000px;
+}
+.ItemParametre{
+  width: 443px;
+  height: 74px;
+  margin-left: 23px;
+  padding-left: 13px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+
+}
+.titreParametre{
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 0.25;
+  width: 464px;
+  height: 37px;
+  padding-left: 24px;
+  padding-top: 26px;
+}
+.Titre1{
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-top: 26px;
+
+}
+/*paiement*/
+.paiement{
+  background-color: #FFFFFF;
+  height: 1000px;
+}
+.titrePaiement{
+  width: 464px;
+  height: 41px;
+  padding-left: 14px;
+  padding-top: 30px;
+}
+.text2{
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.ItemPaiement2{
+  height: 68px;
+  padding-left: 14px;
+  width: 464px;
+  display: flex;
+  align-items: center;
+  
+}
+.ItemPaiement1{
+  height: 100px; 
+  display: inline;
+  margin-left: 30px; 
+}
+/*Transfert*/
+.ItemTransfert{
+  height: 68px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 440px;
+  display: flex;
+}
+
+.ItemTransfert{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 468px;
+  height: 58px;
+  display: flex;
+}
+.identite{
+  display: flex;
+}
+.titreTransfert{
+  font-weight: 600;
+  font-size: 22px;
+  width: 468px;
+  height: 58px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.transfert{
+  background-color: #FFFFFF;
+  height: 1000px;
+}
+
+
+
+/*BANQUE*/
+.banque{
+  background-color: #F3F4F6;
+  height: 1000px;
+}
+.Banque{
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 436px;
+  background-color: #FFFFFF;
+  margin-left: 26px;
+
+}
+.bgBanque{
+  height: 290px;
+}
+.bgBanque1{
+  height: 220px;
+}
+.cercle{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  padding-top: 3px;
+  padding-left: 2px;
+  padding-bottom: 4px;
+  margin-right: 10px;
+}
+.number{
+  margin-left: 10px;
+}
+.iconeBonhomme{
+  display: flex;
+  margin-left: 24px;
+  margin-bottom: 30px;
+}
+
+/*Coffre*/
+.coffre{
+  background-color: #F3F4F6;
+  height: 1000px;
+}
+.iconeCoffre{
+  display: flex;
+  margin-left: 140px;
+}
+.textCoffre{
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.montantCoffre{
+  color: #000000 !important;
+  display: flex;
+  margin-left: 211px;
+}
+.monnaieCompte{
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 10px
+}
+.bouclerCoffre{
+  width: 190px;
+  height: 63px;
+  background-color: #1DCCFF;
+  border-radius: 200px;
+  display: flex;
+  margin-left: 14px;
+  padding-right: 30px;
+}
+.texteBoutonCoffre{
+  color: #F2FFFF;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+.signeBoutonCoffre{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #C9EEFE;
+  color: #1DCCFF;
+  font-size: 36px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signeAjout{
+  padding-bottom: 8px;
+}
+.BoutonCoffre{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 101px;
+}
+.pd{
+  margin-left: 10px;
+}
+.md{
+  width: 413px;
+  height: 112px;
+  margin-top: 11px;
+  margin-left: 24px;
+  padding-left: 42px;
+  padding-top: 40px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 22px;
+}
